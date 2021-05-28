@@ -1,6 +1,6 @@
 import './index.css'
-import ExpenseItem from '../ExpenseItem/index'
-import Card from '../CardExpenses/index'
+import ExpenseItem from './ExpenseItem/index'
+import Card from '../UI/Card/index'
 
 function Expanses(props) {
   return (
