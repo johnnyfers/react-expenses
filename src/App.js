@@ -33,6 +33,8 @@ function App() {
   const addExpenseHandler = (expense)=>{
     console.log('in App.js')
     console.log(expense)
+    expenses.push(expense)
+    console.log(expenses)
   }
 
   return (
